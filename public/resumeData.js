@@ -3,7 +3,7 @@ export const resumeData = {
 	occupation: "Full Stack Web Developer",
 	description:
 		"I have a strong desire to be a productive member of a team environment that fosters learning, growth, and develop a great product for the user",
-	image: "Me.jpg",
+	image: "/images/me.jpg",
 	bio: "I am a Full Stack Web Developer passionate about solving complex problems and making great websites that will benefit the client. I am determined to serve you with my skills and meet your need.",
 	message: "Can I help you on your next project? Let's chat.",
 	email: "jordandevaney28@gmail.com",

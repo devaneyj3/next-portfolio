@@ -1,0 +1,45 @@
+.about_container {
+	display: flex;
+	align-items: center;
+	background-color: #2b2b2b;
+	height: 60vh;
+	.info {
+		padding: 30px;
+	}
+	.img_container {
+		margin: 10%;
+		img {
+			border-radius: 50%;
+		}
+	}
+	.contact {
+		padding-top: 10px;
+		.download_btn {
+			background-color: #444;
+			border: none;
+			color: white;
+			padding: 12px 30px;
+			margin-top: 50px;
+			cursor: pointer;
+			font-size: 20px;
+			/* Darker background on mouse-over */
+			&:hover {
+				background-color: white;
+				color: black;
+			}
+		}
+	}
+	h1 {
+		color: white;
+		font-size: 3em;
+	}
+	p {
+		color: #7a7a7a;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.img_container {
+		display: none;
+	}
+}
