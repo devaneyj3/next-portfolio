@@ -70,10 +70,8 @@ export default function Header({ data }) {
 					</h3>
 					<ul className="social">{networks}</ul>
 				</div>
-				<CustomButton className={styles.button}>
-					<a href={blog} target="_blank" rel="noopener noreferrer">
-						Read My Blog
-					</a>
+				<CustomButton className={styles.button} link={blog}>
+					Read My Blog
 				</CustomButton>
 			</div>
 

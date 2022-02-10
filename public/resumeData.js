@@ -125,6 +125,14 @@ export const resumeData = {
 				category: "React",
 			},
 			{
+				title: "Anywhere Fitness",
+				description:
+					"A fitness management app where instructors can post classes and students can sign up.",
+				image: "fitness.jpg",
+				url: "https://inspiring-jones-a91418.netlify.app/",
+				category: "Next JS",
+			},
+			{
 				title: "Simon Game",
 				description: "Replica of the old Simon Game.",
 				image: "simon-game.png",
