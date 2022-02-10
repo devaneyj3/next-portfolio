@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/nav.module.css";
+import CustomButton from "./CustomButton";
 
 export default function Header({ data }) {
 	const {
@@ -69,11 +70,11 @@ export default function Header({ data }) {
 					</h3>
 					<ul className="social">{networks}</ul>
 				</div>
-				<button className={styles.button}>
+				<CustomButton className={styles.button}>
 					<a href={blog} target="_blank" rel="noopener noreferrer">
 						Read My Blog
 					</a>
-				</button>
+				</CustomButton>
 			</div>
 
 			<p className="scrolldown">

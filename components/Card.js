@@ -10,7 +10,7 @@ export default function Card({ portfolioData }) {
 				return (
 					<div key={i} className={classes.card}>
 						<h1>{project.title}</h1>
-						<h1>{project.category}</h1>
+						<p>{project.description}</p>
 					</div>
 				);
 			})}

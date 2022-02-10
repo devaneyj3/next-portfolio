@@ -118,57 +118,65 @@ export const resumeData = {
 		projects: [
 			{
 				title: "Anywhere Fitness",
-				category:
+				description:
 					"A fitness management app where instructors can post classes and students can sign up.",
 				image: "fitness.jpg",
 				url: "https://inspiring-jones-a91418.netlify.app/",
+				category: "React",
 			},
 			{
 				title: "Simon Game",
-				category: "Replica of the old Simon Game.",
+				description: "Replica of the old Simon Game.",
 				image: "simon-game.png",
 				url: "https://devaneyj3.github.io/simon_game/",
+				category: "React",
 			},
 			{
 				title: "Image Upload",
-				category:
+				description:
 					"Used React and the React Uploading library to make my own image uploader.",
 				image: "image_upload.png",
 				url: "https://main.d39nx6sonuwpa1.amplifyapp.com/",
+				category: "React",
 			},
 			{
 				title: "Quote Maker",
-				category:
+				description:
 					"Used React, React Router, SCSS, Reactstrap, and UUID to make a quote generator where users can enter in quotes.",
 				image: "quote_maker.png",
 				url: "https://main.d1w5rtjhri4um8.amplifyapp.com/quotes",
+				category: "React",
 			},
 			{
 				title: "To Do List",
-				category:
+				description:
 					"Utilized Redux with React to make a todo app. Used AWS Amplify to deploy and the AWS Graphql API service.",
 				image: "todo.jpg",
 				url: "https://main.d1k25onjnr2iyp.amplifyapp.com/",
+				category: "React",
 			},
 			{
 				title: "Game of Life",
-				category:
+				description:
 					"This project was a part of one of my build weeks at Lambda School. This was done using HTML Canvas, Vanilla JS and Bootstrap.",
 				image: "life.png",
 				url: "https://game-of-lif-jordan.netlify.app/",
+				category: "React",
 			},
 			{
 				title: "Budget App",
-				category: "Utilized React and Redux to make a buget and checkbook.",
+				description: "Utilized React and Redux to make a buget and checkbook.",
 				image: "budget.png",
 				url: "https://dazzling-kirch-79dfd6.netlify.app/",
+				category: "React",
 			},
 			{
 				title: "Github Users",
-				category:
+				description:
 					"Utilized React, Context API, GitHub API and Fusion Charts to display stats of searched user account.",
 				image: "github.png",
 				url: "https://search-github-users54.netlify.app/",
+				category: "React",
 			},
 		],
 	},
