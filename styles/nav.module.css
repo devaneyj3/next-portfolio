@@ -1,57 +1,56 @@
 .header {
-  background: #161415 url(../public/images/header-background.jpg) no-repeat top center;
-  height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .ul {
-  padding-top: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  color: white;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	color: rgba(255, 255, 255, 0.75);
 }
 
 .about {
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .headline {
-  font-size: 5rem;
-  color: white;
-  font-weight: bold;
+	font-size: 5rem;
+	color: rgba(255, 255, 255, 0.75);
+	font-weight: bold;
 }
 
 .headline_subheading {
-  margin: 50px 0 50px 0;
-  color: #A8A8A8;
-  align-self: center;
+	margin: 50px 0 50px 0;
+	color: #a8a8a8;
+	align-self: center;
 }
 
 .button {
-  background: #11ABB0;
-  font: 16px/30px 'opensans-bold', sans-serif;
-    background: #11ABB0;
-    display: inline-block;
-    text-decoration: none;
-    letter-spacing: 0;
-    color: #fff;
-    padding: 12px 20px;
-    margin-bottom: 18px;
-    border: none;
-    cursor: pointer;
-    height: auto;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -khtml-border-radius: 3px;
-    border-radius: 3px;
+	background: #11abb0;
+	font: 16px/30px "opensans-bold", sans-serif;
+	background: #11abb0;
+	display: inline-block;
+	text-decoration: none;
+	letter-spacing: 0;
+	color: #fff;
+	padding: 12px 20px;
+	margin-bottom: 18px;
+	border: none;
+	cursor: pointer;
+	height: auto;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
 }
