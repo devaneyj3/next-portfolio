@@ -18,7 +18,7 @@ export default function Home() {
 			<Layout resumeData={resumeData}>
 				<About data={resumeData} />
 				<Portfolio data={resumeData} />
-				<Resume data={resumeData} />
+				<Resume data={resumeData.resume} />
 				<Contact data={resumeData} />
 			</Layout>
 		</div>
