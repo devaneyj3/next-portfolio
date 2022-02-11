@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CustomButton from "./CustomButton";
 import React from "react";
 import classes from "./card.module.scss";
 
@@ -16,6 +17,15 @@ export default function Card({ portfolioData }) {
 						/>
 						<h1>{project.title}</h1>
 						<p>{project.description}</p>
+						<p>{project.stack}</p>
+						<section>
+							<CustomButton customClass link={project.url}>
+								See Live App
+							</CustomButton>
+							<CustomButton customClass link={project.github}>
+								Source Code
+							</CustomButton>
+						</section>
 					</div>
 				);
 			})}

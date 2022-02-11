@@ -19,4 +19,19 @@
 	-webkit-border-radius: 3px;
 	-khtml-border-radius: 3px;
 	border-radius: 3px;
+	&:active {
+		background-color: white;
+	}
+}
+.smallButton {
+	background: #11abb0;
+	font: 10px;
+	text-decoration: none;
+	letter-spacing: 0;
+	color: #fff;
+	padding: 12px;
+	margin-bottom: 1px;
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
 }

@@ -123,21 +123,18 @@ export const resumeData = {
 				image: "fitness.jpg",
 				url: "https://inspiring-jones-a91418.netlify.app/",
 				category: "React",
-			},
-			{
-				title: "Anywhere Fitness",
-				description:
-					"A fitness management app where instructors can post classes and students can sign up.",
-				image: "fitness.jpg",
-				url: "https://inspiring-jones-a91418.netlify.app/",
-				category: "Next JS",
+				github: "https://github.com/devaneyj3/Anywhere_Fitness_FE",
+				stack:
+					"React | Redux | SCSS | Moment | Reactstrap | Redux Thunk | Redux Logger | NodeJS | Express | PostgreSQL | Knex | Netlify | Heroku ",
 			},
 			{
 				title: "Simon Game",
 				description: "Replica of the old Simon Game.",
 				image: "simon-game.png",
 				url: "https://devaneyj3.github.io/simon_game/",
-				category: "React",
+				github: "https://github.com/devaneyj3/simon_game",
+				category: "Vanilla JS",
+				stack: "Vanilla JS | Less | GitHub Pages",
 			},
 			{
 				title: "Image Upload",
@@ -145,7 +142,9 @@ export const resumeData = {
 					"Used React and the React Uploading library to make my own image uploader.",
 				image: "image_upload.png",
 				url: "https://main.d39nx6sonuwpa1.amplifyapp.com/",
+				github: "https://github.com/devaneyj3/image-upload",
 				category: "React",
+				stack: "React | ClipboardJS | React Images Uploading | AWS Amplify",
 			},
 			{
 				title: "Quote Maker",
@@ -153,7 +152,9 @@ export const resumeData = {
 					"Used React, React Router, SCSS, Reactstrap, and UUID to make a quote generator where users can enter in quotes.",
 				image: "quote_maker.png",
 				url: "https://main.d1w5rtjhri4um8.amplifyapp.com/quotes",
+				github: "https://github.com/devaneyj3/quote_database",
 				category: "React",
+				stack: "React | React Router | SCSS | Reactstrap | UUID | AWS Amplify",
 			},
 			{
 				title: "To Do List",
@@ -161,7 +162,9 @@ export const resumeData = {
 					"Utilized Redux with React to make a todo app. Used AWS Amplify to deploy and the AWS Graphql API service.",
 				image: "todo.jpg",
 				url: "https://main.d1k25onjnr2iyp.amplifyapp.com/",
+				github: "https://github.com/devaneyj3/Todo_Front_End",
 				category: "React",
+				stack: "Redux | React | AWS | AWS AppSync | AWS Amplify",
 			},
 			{
 				title: "Game of Life",
@@ -169,14 +172,19 @@ export const resumeData = {
 					"This project was a part of one of my build weeks at Lambda School. This was done using HTML Canvas, Vanilla JS and Bootstrap.",
 				image: "life.png",
 				url: "https://game-of-lif-jordan.netlify.app/",
-				category: "React",
+				github: "https://github.com/devaneyj3/game-of-life",
+				category: "Vanilla JS",
+				stack: "Vanilla JS | HTML | CSS | Bootstrap | Netlify",
 			},
 			{
 				title: "Budget App",
 				description: "Utilized React and Redux to make a buget and checkbook.",
 				image: "budget.png",
 				url: "https://dazzling-kirch-79dfd6.netlify.app/",
+				github: "https://github.com/devaneyj3/budget-front_end",
 				category: "React",
+				stack:
+					"React | Redux | Axios | Formik | SCSS | Moment | Reactstrap | Express | Knex | PostgreSQL | Heroku | Netlify",
 			},
 			{
 				title: "Github Users",
@@ -184,7 +192,22 @@ export const resumeData = {
 					"Utilized React, Context API, GitHub API and Fusion Charts to display stats of searched user account.",
 				image: "github.png",
 				url: "https://search-github-users54.netlify.app/",
+				github: "https://github.com/devaneyj3/github_users",
 				category: "React",
+				stack:
+					"React | Axios | React Icons | GitHub API | Fusion Charts | Context API | Auth0 | Netlify",
+			},
+			{
+				title: "ComfySloth",
+				description:
+					"Utilized React, Context API, GitHub API and Fusion Charts to display stats of searched user account.",
+				image: "ComfySloth.png",
+				url: "https://testing-comfy-jd.netlify.app/",
+				github:
+					"https://github.com/devaneyj3/react-ecommerce-testing-comfy-store",
+				category: "Next JS",
+				stack:
+					"Next JS | Axios | Styled Components | Stripe API | Context API | Use Reducer | Auth | Netlify | Serverless Function",
 			},
 		],
 	},

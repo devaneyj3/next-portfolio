@@ -1,16 +1,14 @@
 import React from "react";
 import classes from "./CustomButton.module.scss";
 
-export default function CustomButton({ link, children, onClick }) {
+export default function CustomButton({ link, customClass, children, onClick }) {
 	return (
-		<button className={classes.button}>
-			<a
-				onClick={onClick}
-				href={link}
-				target="_blank"
-				rel="noopener noreferrer">
+		<a href={link} target="_blank" rel="noopener noreferrer">
+			<button
+				className={`${customClass ? classes.smallButton : classes.button}`}
+				onClick={onClick}>
 				{children}
-			</a>
-		</button>
+			</button>
+		</a>
 	);
 }
