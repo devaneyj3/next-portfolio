@@ -32,7 +32,7 @@ export default function Home() {
 					<Education education={resumeData.resume.education} />
 				</PageContainer>
 				<PageContainer>
-					<Skills />
+					<Skills skills={resumeData.resume.skills} />
 				</PageContainer>
 				<PageContainer>
 					<Contact data={resumeData} />

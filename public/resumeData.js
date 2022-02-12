@@ -81,36 +81,36 @@ export const resumeData = {
 		],
 		skills: [
 			{
-				name: "JavaScript",
-				level: "70%",
+				label: "JavaScript",
+				value: "70%",
 			},
 			{
-				name: "Python",
-				level: "55%",
+				label: "Python",
+				value: "55%",
 			},
 			{
-				name: "ReactJS",
-				level: "80%",
+				label: "ReactJS",
+				value: "80%",
 			},
 			{
-				name: "SCSS",
-				level: "60%",
+				label: "SCSS",
+				value: "60%",
 			},
 			{
-				name: "HTML5",
-				level: "80%",
+				label: "HTML5",
+				value: "80%",
 			},
 			{
-				name: "SQL",
-				level: "70%",
+				label: "SQL",
+				value: "70%",
 			},
 			{
-				name: "Node",
-				level: "80%",
+				label: "Node",
+				value: "80%",
 			},
 			{
-				name: "AWS",
-				level: "50%",
+				label: "AWS",
+				value: "50%",
 			},
 		],
 	},
