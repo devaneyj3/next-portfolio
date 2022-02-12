@@ -1,8 +1,7 @@
 import React from "react";
 import classes from "./resume.module.scss";
 
-export default function Resume({ data }) {
-	const { work, education, skillmessage } = data;
+export default function Resume({ work }) {
 	return (
 		<>
 			<h1>Work</h1>

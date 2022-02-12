@@ -6,7 +6,6 @@ import classes from "./about.module.scss";
 
 export default function About({ data }) {
 	const { image, name, phone, email, bio } = data;
-	console.log(data);
 	return (
 		<div className={classes.about_container}>
 			<section className={classes.img_container}>

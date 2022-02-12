@@ -6,6 +6,9 @@ import Contact from "../components/Contact";
 import Portfolio from "../components/Portfolio";
 import { resumeData } from "../public/resumeData";
 import Layout from "../components/layout";
+import PageContainer from "../components/PageContainer";
+import Skills from "../components/Skills";
+import Education from "../components/Education";
 
 export default function Home() {
 	return (
@@ -16,10 +19,24 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Layout resumeData={resumeData}>
-				<About data={resumeData} />
-				<Portfolio data={resumeData} />
-				<Resume data={resumeData.resume} />
-				<Contact data={resumeData} />
+				<PageContainer>
+					<About data={resumeData} />
+				</PageContainer>
+				<PageContainer>
+					<Portfolio data={resumeData} />
+				</PageContainer>
+				<PageContainer>
+					<Resume work={resumeData.resume.work} />
+				</PageContainer>
+				<PageContainer>
+					<Education education={resumeData.resume.education} />
+				</PageContainer>
+				<PageContainer>
+					<Skills />
+				</PageContainer>
+				<PageContainer>
+					<Contact data={resumeData} />
+				</PageContainer>
 			</Layout>
 		</div>
 	);
