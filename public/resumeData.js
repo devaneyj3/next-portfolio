@@ -45,8 +45,18 @@ export const resumeData = {
 		],
 		work: [
 			{
+				company: "Self Employed",
+				title: "React Engineer",
+				years: "Jan 2022 - Current",
+				description: [
+					"Integrate data from the Strapi headless CMS to NextJS app",
+					"Implement assignments trhough Trello",
+					,
+				],
+			},
+			{
 				company: "Floodgate Church",
-				title: "Freelance Web Developer",
+				title: "Webflow Developer",
 				years: "May 2021 - Current",
 				description: [
 					"Met with church's Graphic Designer to stragetize layout of website",
@@ -56,7 +66,7 @@ export const resumeData = {
 			},
 			{
 				company: "thesoftwareaccelerator.com",
-				title: "Founder/Content Creator",
+				title: "WordPress Developer",
 				years: "December 2020 - Current",
 				description: [
 					"Maintained WordPress website",
@@ -65,17 +75,6 @@ export const resumeData = {
 					"Research article ideas and create content centered around web development",
 					"Utilized Copywriting strategies and affilate marketing to increase profit",
 					"Utilized SEO optimization to rank on Google and other search engines",
-				],
-			},
-			{
-				company: "DoorDash",
-				title: "Delivery Driver",
-				years: "January 2019 - December 2021",
-				description: [
-					"Comleted over 4000 deliveries with a 4.93 rating out of 5",
-					"Operated fast-paced delivery service throughout the Brighton market",
-					"Planned and strategized more efficient routes to increase speed of service",
-					"Received compliments for my timely service",
 				],
 			},
 		],
@@ -93,11 +92,7 @@ export const resumeData = {
 				value: "80%",
 			},
 			{
-				label: "SCSS",
-				value: "60%",
-			},
-			{
-				label: "HTML5",
+				label: "Git",
 				value: "80%",
 			},
 			{
@@ -111,6 +106,10 @@ export const resumeData = {
 			{
 				label: "AWS",
 				value: "50%",
+			},
+			{
+				label: "NextJS",
+				value: "70%",
 			},
 		],
 	},
