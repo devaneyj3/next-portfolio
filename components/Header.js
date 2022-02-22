@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./header.module.scss";
-import CustomButton from "./CustomButton";
+import CustomButton from "../src/components/CustomButton";
 
 export default function Header({ data }) {
 	const {

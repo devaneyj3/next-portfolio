@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import { useEffect } from "react";
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
@@ -10,27 +11,28 @@ import Service from "../src/components/Service";
 import Skills from "../src/components/Skills";
 import Testimonial from "../src/components/Testimonial";
 import Layout from "../src/layouts/Layout";
-
-import { resumeData } from "../public/resumeData";
 const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
-	ssr: false,
+  ssr: false,
 });
 
 const Index = () => {
-	return (
-		<Layout>
-			<Home resumeData={resumeData} />
-			<About resumeData={resumeData} />
-			<Skills resumeData={resumeData} />
-			<Portfolio resumeData={resumeData} />
-			<Service resumeData={resumeData} />
-			<Resume resumeData={resumeData} />
-			<Testimonial resumeData={resumeData} />
-			<Blog resumeData={resumeData} />
-			<Counter resumeData={resumeData} />
-			<Contact resumeData={resumeData} />
-		</Layout>
-	);
+  useEffect(() => {
+    document.querySelector("body").classList.add("dark");
+  }, []);
+  return (
+    <Layout dark>
+      <Home />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Service dark />
+      <Resume />
+      <Testimonial />
+      <Blog />
+      <Counter />
+      <Contact />
+    </Layout>
+  );
 };
 
 export default Index;
