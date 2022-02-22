@@ -1,0 +1,37 @@
+.navigation {
+	padding: 15px;
+	position: fixed;
+	width: 300px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #040b14;
+
+	.profile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.social {
+			display: flex;
+			justify-content: space-evenly;
+			width: 50%;
+		}
+		img {
+			border-radius: 50%;
+		}
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		svg {
+			padding-right: 8px;
+		}
+		a {
+			display: flex;
+			padding: 12px 15px;
+			color: #a8a9b4;
+			align-items: center;
+		}
+	}
+}

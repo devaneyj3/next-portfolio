@@ -1,3 +1,4 @@
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 export const resumeData = {
 	name: "Jordan Devaney",
 	occupation: "Full Stack Web Developer",
@@ -18,12 +19,12 @@ export const resumeData = {
 		{
 			name: "linkedin",
 			url: "https://www.linkedin.com/in/jordandevaney/",
-			className: "fa fa-linkedin",
+			icon: <AiFillLinkedin />,
 		},
 		{
 			name: "github",
 			url: "https://github.com/devaneyj3",
-			className: "fa fa-github",
+			icon: <AiFillGithub />,
 		},
 	],
 	resume: {

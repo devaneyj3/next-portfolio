@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/nav.module.css";
+import styles from "./header.module.scss";
 import CustomButton from "./CustomButton";
 
 export default function Header({ data }) {
@@ -23,44 +23,9 @@ export default function Header({ data }) {
 
 	return (
 		<header className={styles.header}>
-			<nav className={styles.nav}>
-				<ul className={styles.ul}>
-					<li>
-						<a className="smoothscroll" href="#home">
-							Home
-						</a>
-					</li>
-					<li>
-						<a className="smoothscroll" href="#about">
-							About
-						</a>
-					</li>
-					<li>
-						<a className="smoothscroll" href="#resume">
-							Resume
-						</a>
-					</li>
-					<li>
-						<a className="smoothscroll" href="#portfolio">
-							Works
-						</a>
-					</li>
-					<li>
-						<a className="smoothscroll" href="#contact">
-							Contact
-						</a>
-					</li>
-					<li>
-						<a href={blog} target="_blank" rel="noopener noreferrer">
-							Blog
-						</a>
-					</li>
-				</ul>
-			</nav>
-
 			<div className={styles.about}>
 				<div className="banner-text">
-					<h1 className={styles.headline}>I'm {name}.</h1>
+					<h1 className={styles.headline}>{name}</h1>
 					<h3 className={styles.headline_subheading}>
 						I'm a {state} based {""}
 						<span style={{ color: "white", fontWeight: "bold" }}>

@@ -1,7 +1,4 @@
 .about_container {
-	display: flex;
-	align-items: center;
-	height: 60vh;
 	.info {
 		padding: 30px;
 	}
@@ -11,26 +8,19 @@
 			border-radius: 50%;
 		}
 	}
-	.contact {
-		padding-top: 10px;
-		.download_btn {
-			background-color: #444;
-			border: none;
-			color: white;
-			padding: 12px 30px;
-			margin-top: 50px;
-			cursor: pointer;
-			font-size: 20px;
-			/* Darker background on mouse-over */
-			&:hover {
-				background-color: white;
-				color: black;
-			}
-		}
-	}
+
 	h1 {
 		color: white;
 		font-size: 3em;
+		&:after {
+			content: " ";
+			width: 50px;
+			height: 3px;
+			bottom: 0;
+			left: 0;
+			display: block;
+			background: #149ddd;
+		}
 	}
 	p {
 		color: #7a7a7a;
