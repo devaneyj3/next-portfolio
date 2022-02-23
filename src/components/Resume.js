@@ -64,7 +64,7 @@ const Resume = ({ resumeData }) => {
 											{work.map((job, i) => {
 												const { company, title, years, description } = job;
 												return (
-													<li key={i}>
+													<div key={i}>
 														<div className="list_inner">
 															<span className="icon">{exp}</span>
 															<div className="info">
@@ -82,7 +82,7 @@ const Resume = ({ resumeData }) => {
 																})}
 															</div>
 														</div>
-													</li>
+													</div>
 												);
 											})}
 										</ul>

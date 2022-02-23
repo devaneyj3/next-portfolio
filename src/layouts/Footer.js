@@ -5,16 +5,13 @@ const Footer = ({ social }) => {
 				<div className="container">
 					<div className="copyright_inner">
 						<div className="top">
-							<div className="logo">
-								<img src="img/logo/logo.png" alt="aali image" />
-							</div>
 							<div className="social">
 								<span>Connect</span>
 								<ul>
 									{social.map((social) => {
 										return (
 											<li key={social.name}>
-												<a href={social.url}>{social.name}</a>
+												<a href={social.url}>{social.icon}</a>
 											</li>
 										);
 									})}

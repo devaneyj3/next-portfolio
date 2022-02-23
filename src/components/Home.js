@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fb, insta, msg, twitter } from "../svgImage";
+import { msg } from "../svgImage";
 import { parallax } from "../utilits";
 
 const Home = ({ resumeData }) => {
@@ -22,8 +22,6 @@ const Home = ({ resumeData }) => {
 							<h3 className="name">{resumeData.name}</h3>
 							<div className="job">
 								<span className="cd-headline rotate-1">
-									{" "}
-									{/* ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  */}
 									<span className="blc">Creative </span>
 									<span className="cd-words-wrapper">
 										<b className={text === 1 ? "is-visible" : "is-hidden"}>
@@ -115,22 +113,20 @@ const Home = ({ resumeData }) => {
 								<span className="in layer" data-depth="0.3" />
 							</span>
 							<h3 className="stroke_text">
-								<span>Aali</span>
+								<span>Jordan</span>
 							</h3>
 						</div>
 					</div>
 				</div>
 				<div className="socials">
 					<ul>
-						<li>
-							<a href="#">{fb}</a>
-						</li>
-						<li>
-							<a href="#">{twitter}</a>
-						</li>
-						<li>
-							<a href="#">{insta}</a>
-						</li>
+						{resumeData.social.map((social) => {
+							return (
+								<li key={social.name}>
+									<a href={social.url}>{social.icon}</a>
+								</li>
+							);
+						})}
 					</ul>
 				</div>
 				<div className="hero_mail">

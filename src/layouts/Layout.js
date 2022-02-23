@@ -12,7 +12,7 @@ import Header from "./Header";
 import MobileMenu from "./MobileMenu";
 import Preloader from "./Preloader";
 
-const Layout = ({ children, headName, dark, resumeData }) => {
+const Layout = ({ children, headName, resumeData }) => {
 	useEffect(() => {
 		dataImage();
 		wowJsAnimation();
@@ -27,9 +27,8 @@ const Layout = ({ children, headName, dark, resumeData }) => {
 			<Preloader />
 			<div className="aali_tm_all_wrap" data-magic-cursor="show">
 				<MobileMenu />
-				<Header dark={dark} />
+				<Header />
 				{children}
-				<Footer social={resumeData.social} />
 				<Cursor />
 			</div>
 		</Fragment>

@@ -138,7 +138,6 @@ const Contact = ({ resumeData }) => {
 											<span>Submit Message {msgSent}</span>
 										</a>
 									</div>
-									{/* If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  */}
 								</form>
 							</div>
 						</div>
