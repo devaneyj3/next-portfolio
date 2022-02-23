@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Card from "./Card";
+import Cards from "./Card";
 
 const Portfolio = ({ resumeData }) => {
 	const [projects, setProjects] = useState(resumeData.portfolio.projects);
@@ -44,7 +44,7 @@ const Portfolio = ({ resumeData }) => {
 					</div>
 
 					<p>Displaying {projects.length} projects</p>
-					<Card portfolioData={projects} />
+					<Cards portfolioData={projects} />
 				</div>
 			</div>
 		</div>
