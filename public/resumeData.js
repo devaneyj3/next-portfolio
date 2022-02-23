@@ -43,7 +43,7 @@ export const resumeData = {
 		],
 		work: [
 			{
-				company: "Self Employed",
+				company: "The Web Accelerator",
 				title: "React Engineer",
 				years: "Jan 2022 - Current",
 				description: [

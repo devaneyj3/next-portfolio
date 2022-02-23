@@ -18,16 +18,16 @@ const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
 
 const Index = () => {
 	return (
-		<Layout>
+		<Layout resumeData={resumeData}>
 			<Home resumeData={resumeData} />
 			<About resumeData={resumeData} />
 			<Skills resumeData={resumeData} />
 			<Portfolio resumeData={resumeData} />
-			<Service resumeData={resumeData} />
+			{/* <Service resumeData={resumeData} /> */}
 			<Resume resumeData={resumeData} />
-			<Testimonial resumeData={resumeData} />
+			{/* <Testimonial resumeData={resumeData} />
 			<Blog resumeData={resumeData} />
-			<Counter resumeData={resumeData} />
+			<Counter resumeData={resumeData} /> */}
 			<Contact resumeData={resumeData} />
 		</Layout>
 	);

@@ -12,27 +12,23 @@ import Skills from "../src/components/Skills";
 import Testimonial from "../src/components/Testimonial";
 import Layout from "../src/layouts/Layout";
 const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
-  ssr: false,
+	ssr: false,
 });
 
 const Index = () => {
-  useEffect(() => {
-    document.querySelector("body").classList.add("dark");
-  }, []);
-  return (
-    <Layout dark>
-      <Home />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Service dark />
-      <Resume />
-      <Testimonial />
-      <Blog />
-      <Counter />
-      <Contact />
-    </Layout>
-  );
+	useEffect(() => {
+		document.querySelector("body").classList.add("dark");
+	}, []);
+	return (
+		<Layout dark>
+			<Home />
+			<About />
+			<Skills />
+			<Portfolio />
+			<Resume />
+			<Contact />
+		</Layout>
+	);
 };
 
 export default Index;

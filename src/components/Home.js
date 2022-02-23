@@ -11,7 +11,7 @@ const Home = ({ resumeData }) => {
 		}, 5000);
 		return () => clearInterval(interval);
 	});
-	console.log(resumeData);
+
 	return (
 		<div className="aali_tm_section " id="home">
 			<div className="aali_tm_hero">
