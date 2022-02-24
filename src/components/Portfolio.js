@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Cards from "./Card";
+import classes from "./portfolio.module.scss";
 
 const Portfolio = ({ resumeData }) => {
 	const [projects, setProjects] = useState(resumeData.portfolio.projects);
@@ -43,7 +44,9 @@ const Portfolio = ({ resumeData }) => {
 						</ul>
 					</div>
 
-					<p>Displaying {projects.length} projects</p>
+					<p className={classes.project_number}>
+						Displaying {projects.length} projects
+					</p>
 					<Cards portfolioData={projects} />
 				</div>
 			</div>
