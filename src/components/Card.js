@@ -1,17 +1,12 @@
-import Image from "next/image";
 import CustomButton from "./CustomButton";
 import React from "react";
 import {
-	CardGroup,
 	Card,
 	CardImg,
 	CardBody,
 	CardTitle,
 	CardText,
 	CardSubtitle,
-	Container,
-	Row,
-	Col,
 } from "reactstrap";
 import classes from "./card.module.scss";
 
